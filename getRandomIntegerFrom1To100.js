@@ -1,1 +1,2 @@
 window.getRandomIntegerFrom1To100 = () => { const randomNumber = new Date().getMilliseconds() / 10; return randomNumber % 1 ? Math.ceil(randomNumber) : randomNumber || 1; };
+// TODO use performance.now(), performance.timeOrigin etc.
