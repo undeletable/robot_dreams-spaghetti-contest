@@ -1,1 +1,1 @@
-export const getRandomNumber = () => Math.ceil(new Date().getMilliseconds() / 10) || 1;
+window.getRandomNumberFrom1To100 = () => Math.ceil(new Date().getMilliseconds() / 10) || 1;
