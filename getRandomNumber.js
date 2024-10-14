@@ -1,0 +1,1 @@
+export const getRandomNumber = () => Math.ceil(new Date().getMilliseconds() / 10) || 1;
