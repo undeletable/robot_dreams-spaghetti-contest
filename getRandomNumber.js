@@ -1,1 +1,1 @@
-window.getRandomNumberFrom1To100 = () => { const randomNumber = new Date().getMilliseconds() / 100; return randomNumber % 1 ? Math.ceil(randomNumber) : Math.max(randomNumber, 100); };
+window.getRandomNumberFrom1To100 = () => { const randomNumber = new Date().getMilliseconds() / 100; return randomNumber % 1 ? Math.ceil(randomNumber) : randomNumber || 1; };
