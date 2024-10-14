@@ -1,0 +1,1 @@
+window.getRandomIntegerFrom1To100 = () => { const randomNumber = new Date().getMilliseconds() / 100; return randomNumber % 1 ? Math.ceil(randomNumber) : randomNumber || 1; };
