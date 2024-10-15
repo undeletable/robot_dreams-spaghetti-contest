@@ -26,3 +26,8 @@ The solution should be a single line of code containing no more that 1000 charac
   ![Recording](demos/recordings/web.gif)
 - [Node.js](demos/node.mjs)
   ![Recording](demos/recordings/node.gif)
+
+## Known issues
+
+- In Firefox, integer numbers only are generated
+- The following code returns array of the same numbers: `new Array(5).fill().map(getRandomNumberFrom1To100)`
